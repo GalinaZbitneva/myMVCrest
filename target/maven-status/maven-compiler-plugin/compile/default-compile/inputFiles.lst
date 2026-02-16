@@ -1,0 +1,6 @@
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/MvcRestApplication.java
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/api/v1/mapper/CategoryMapper.java
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/api/v1/model/CategoryDTO.java
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/bootstrap/Bootstrap.java
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/domain/Category.java
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/repositories/CategoryRepository.java

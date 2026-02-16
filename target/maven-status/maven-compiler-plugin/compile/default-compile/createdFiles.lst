@@ -1,0 +1,7 @@
+me/mvcRest/api/v1/mapper/CategoryMapper.class
+me/mvcRest/api/v1/mapper/CategoryMapperImpl.class
+me/mvcRest/api/v1/model/CategoryDTO.class
+me/mvcRest/MvcRestApplication.class
+me/mvcRest/repositories/CategoryRepository.class
+me/mvcRest/domain/Category.class
+me/mvcRest/bootstrap/Bootstrap.class
