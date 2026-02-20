@@ -4,3 +4,5 @@
 /Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/bootstrap/Bootstrap.java
 /Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/domain/Category.java
 /Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/repositories/CategoryRepository.java
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/services/CategoryService.java
+/Users/galinazbitneva/Documents/JAVA_projects/MVCrest/myMVCrest/src/main/java/me/mvcRest/services/CategoryServiceImpl.java
