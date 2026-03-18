@@ -6,6 +6,7 @@ import me.mvcRest.bootstrap.Bootstrap;
 import me.mvcRest.domain.Customer;
 import me.mvcRest.repositories.CategoryRepository;
 import me.mvcRest.repositories.CustomerRepository;
+import me.mvcRest.repositories.VendorRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,8 @@ class CustomerServiceImplIntegrationTest {
     CustomerRepository customerRepository;
     @Autowired
     CategoryRepository categoryRepository;
+    @Autowired
+    VendorRepository vendorRepository;
 
     CustomerService customerService;
 
@@ -38,7 +41,7 @@ class CustomerServiceImplIntegrationTest {
         System.out.println("Loading Customer Data");
         System.out.println(customerRepository.findAll().size());
 
-        Bootstrap bootstrap = new Bootstrap(categoryRepository,customerRepository);
+        Bootstrap bootstrap = new Bootstrap(categoryRepository,customerRepository,vendorRepository);
         bootstrap.run();
 
         customerService = new CustomerServiceImpl(customerRepository, CustomerMapper.INSTANCE);
